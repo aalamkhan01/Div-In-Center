@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background-image: linear-gradient(to right , rgb(4, 173, 240) , rgb(103, 224, 143));
+    
+    /* method-1 */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+    /* method 2 */
+   display: grid;
+   place-content: center;
+
+   /* display: flex; Method 4 */
+
+  
+   
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    /* background-color: blue; */
+    /* margin:auto; method 4 */
+     /* method 3 */
+    /* position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); */
+}
+.box h1 {
+    color: rgb(0, 162, 255);
+    margin: 5px;
+}
+
+.box button {
+    border: 1px solid black;
+    padding: 10px 50px;
+    margin: 5px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right , rgb(4, 173, 240) , rgb(103, 224, 143));
+}
+
+.inputs {
+    width: 400px;
+    height: 450px;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    
+}
+
+.inputs input {
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 5px;
+    padding:8px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight:bold;
+    
+    /* margin: 10px; */
+    /* padding: 5px; */
+}
+
+.inputs label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.SignIn {
+    margin: 10px;
+}
+
+.SignIn a {
+    color: rgb(0, 162, 255);
+    font-size: large;
+    font-weight: bold;
+    margin: 3px;
+} 
